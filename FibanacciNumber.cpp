@@ -3,7 +3,7 @@
 using namespace std;
 int main ()
 {
-    int num;
+    long long  num;
     int previousNum=1;
     int currentNum=0;
 
