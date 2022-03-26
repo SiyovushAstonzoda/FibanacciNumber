@@ -4,16 +4,16 @@ using namespace std;
 int main ()
 {
     int num;
-    int previousNum=1;
-    int currentNum=0;
+    int previousnum=1;
+    int currentnum=0;
 
     cout<<"num = ";
     cin>>num;
 
     for(int i = 0; i <num; i++) {
-        cout<<currentNum<<" ";
-        currentNum += previousNum;
-        previousNum = currentNum - previousNum;
+        cout<<currentnum<<" ";
+        currentnum += previousnum
+        previousnum = currentnum - previousNum;
 
     }
 }
